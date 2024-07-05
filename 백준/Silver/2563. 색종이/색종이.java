@@ -8,12 +8,12 @@ public class Main {
     
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		
-		boolean[][] arr = new boolean[101][101];
+		boolean[][] arr = new boolean[100][100];
 		
 		int num = Integer.parseInt(br.readLine()); //종이 수
 		int x = 0;
 		int y = 0;
-		int over = 0; //해당부분
+		int over = 0; //겹치는 부분
 		
 		StringTokenizer st;
 		
@@ -34,6 +34,6 @@ public class Main {
 		}
 		br.close();
 		System.out.print(over);
-
+		
 	}
 }
